@@ -3,9 +3,9 @@ package qiniu_test
 import (
 	"testing"
 
+	"github.com/conku/oss/qiniu"
+	"github.com/conku/oss/tests"
 	"github.com/jinzhu/configor"
-	"github.com/qor/oss/qiniu"
-	"github.com/qor/oss/tests"
 )
 
 type Config struct {

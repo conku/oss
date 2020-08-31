@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/conku/oss"
 	"github.com/qiniu/api.v7/auth/qbox"
 	"github.com/qiniu/api.v7/storage"
-	"github.com/qor/oss"
 )
 
 // Client Qiniu storage

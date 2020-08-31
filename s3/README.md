@@ -1,11 +1,11 @@
 # AWS S3
 
-[AWS S3](https://aws.amazon.com/cn/s3/) backend for [QOR OSS](https://github.com/qor/oss)
+[AWS S3](https://aws.amazon.com/cn/s3/) backend for [QOR OSS](https://github.com/conku/oss)
 
 ## Usage
 
 ```go
-import "github.com/qor/oss/aliyun"
+import "github.com/conku/oss/aliyun"
 
 func main() {
   storage := s3.New(s3.Config{

@@ -1,11 +1,11 @@
 # Aliyun
 
-[Aliyun](http://aliyun.com) backend for [QOR OSS](https://github.com/qor/oss)
+[Aliyun](http://aliyun.com) backend for [QOR OSS](https://github.com/conku/oss)
 
 ## Usage
 
 ```go
-import "github.com/qor/oss/aliyun"
+import "github.com/conku/oss/aliyun"
 
 func main() {
   storage := aliyun.New(&aliyun.Config{
